@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = 'My Site'
+theme = 'nojs'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 2
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
