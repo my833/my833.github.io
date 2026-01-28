@@ -8,5 +8,3 @@ index
 
 
 Current theme is [nojs](https://git.andy.sb/nojs.git).
-
-Other theme: [yingyang](https://github.com/joway/hugo-theme-yinyang).
