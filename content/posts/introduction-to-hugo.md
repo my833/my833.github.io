@@ -1,7 +1,7 @@
 +++
 date = '2026-01-28T16:12:45+08:00'
 draft = false
-title = 'Hugo使用nojs主题'
+title = 'introduction to Hugo'
 tags = [
   'Hugo'
 ]
@@ -10,7 +10,7 @@ tags = [
 ## 安装`hugo`
 通过系统包管理器或直接从github下载
 
-## 创建站点
+## 创建站点及应用主题
 ```bash
 hugo new site myblog
 cd myblog
@@ -44,6 +44,12 @@ theme = "nojs"
 2. 修改`themes/nojs/layouts/_partials/head.html`，增加样式:  
   添加`<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" />`。
 
+
+## Github Pages & Actions
+正常建立repo，点击`Actions`，搜索`hugo`，点击`Configure`直接保存。
+
+## 新建页面
+在根目录`hugo new posts/new_post_title.md`，即会在`content/posts`下新建`new_post_title.md`文件，再编辑内容即可。
 
 ## 其他
 其他主题: [yingyang](https://github.com/joway/hugo-theme-yinyang).
