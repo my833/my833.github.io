@@ -1,6 +1,6 @@
 +++
 date = '2026-01-28T16:12:45+08:00'
-draft = true
+draft = false
 title = 'Hugo使用nojs主题'
 tags = [
   'Hugo'
